@@ -40,3 +40,6 @@ em trabalhando em um projeto em equipe.
 git log >> para acessa a linha do tempo <<
 depois copia o endereço e da um*** git checkout endereço -- xxxx ***
 sendo xxx o arquivo pra ser recuperado
+
+
+git push // pra colocar na nuvem
