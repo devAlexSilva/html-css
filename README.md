@@ -31,6 +31,7 @@ git status
 git remote -v // para ver os repositorios remotos
 
 
+
 git pull para atualizar no projeto local, o que foi feito na nuvem.
 
 git clone >>>e cola o link que copiou no github para editar<<<
