@@ -30,3 +30,17 @@ git status
 
 git remote -v // para ver os repositorios remotos
 
+
+
+git pull para atualizar no projeto local, o que foi feito na nuvem.
+
+git clone >>>e cola o link que copiou no github para editar<<<
+é bom sempre atualizar antes de enviar o arquivo editado de volta praa nuvem se estiver
+em trabalhando em um projeto em equipe.
+
+git log >> para acessa a linha do tempo <<
+depois copia o endereço e da um*** git checkout endereço -- xxxx ***
+sendo xxx o arquivo pra ser recuperado
+
+
+git push // pra colocar na nuvem
