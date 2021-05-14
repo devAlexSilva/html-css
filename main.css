@@ -1,95 +1,86 @@
-*:not(#descrition){ /* global (pega em todo documento) */
+
+
+*:not(#descrition){
     margin: 0px;
     background-color: #000;
     color:cyan;
+    box-sizing: border-box;
+    
     
 }
 
 
 #login input {
-   margin: 10px;
-  
-}
-
-
-
-body {
-
-    width: 100%;
-    
-    
-  
+   margin: 8px;
+   
+   align-items: center;
+   justify-content: center;
 
 }
 
 
-    
+*body {
+    height: 100vh;
+}
 
-/* class (def, raid, carro)*/
+
 #navigation {
-    
-    display: flex;
-    margin: 10px;
+    box-sizing: border-box;
+    margin: 10vh auto;
     text-align: center;
-    
-    
     background-color:black;
- 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navigation div{
+    
+    margin:8px;
 }
 
-#navigation div{
-    margin: 10px;
-}
 
 
 img {
     width: 300px;
     height: 380px;
-    
-   
-    
 }
 
 
 header {
-
     width: 100%;
-    color: aqua;
     text-align: left;
-  
 }
 
 
-h4 { /* element(h1,h2,p,div) */
+h4 { 
     font-size: 40px;
     text-align: center; 
-    color: aliceblue;
-    
 }
-
+h4, #btt:hover{
+    cursor: pointer;
+}
 
 
 #btt {
     width: 45px;
     height: 22px;
-    margin-bottom: 50px;
     border-style:double;
     border-radius: 10px;
- 
-    
+    margin-top: 8px;
     
 }
+
 
 #descrition {
     resize: none;
     width: 280px;
     height: 100px;
-    margin: 10px;
+    margin-top: 8px;
     font-size: 16px;
     border-radius: 12px;
     background-image:url(./img/monster.jpeg);
-  
-     
+    color:cyan;
 }
 
 
