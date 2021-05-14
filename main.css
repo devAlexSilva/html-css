@@ -1,55 +1,53 @@
-
-
-*:not(#descrition){
+*{
     margin: 0px;
     background-color: #000;
     color:cyan;
     box-sizing: border-box;
-    
-    
+}
+
+header {
+    width: 100%;
+    text-align: left;
+    height: 90px;
 }
 
 
 #login input {
    margin: 8px;
-   
-   align-items: center;
-   justify-content: center;
-
 }
 
 
-*body {
-    height: 100vh;
-}
-
-
-#navigation {
+body {
     box-sizing: border-box;
-    margin: 10vh auto;
-    text-align: center;
-    background-color:black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url(./img/monster.jpeg);
+    background-repeat: no-repeat;
+    margin-left: 32px;
+    height: 1400px;
+    width: 100%;
     
-}
-#navigation div{
-    
-    margin:8px;
 }
 
+
+.container {
+    display: flex;
+    margin: 12px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    width: 900px;
+    margin-left: 200px;
+}
+
+
+.post {
+    padding: 30px;
+}
 
 
 img {
-    width: 300px;
-    height: 380px;
-}
-
-
-header {
-    width: 100%;
-    text-align: left;
+    width: 350px;
+    height: 390px;
+    border-radius: 30px;
 }
 
 
@@ -57,8 +55,9 @@ h4 {
     font-size: 40px;
     text-align: center; 
 }
-h4, #btt:hover{
+h4:hover, #btt:hover{
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -68,7 +67,6 @@ h4, #btt:hover{
     border-style:double;
     border-radius: 10px;
     margin-top: 8px;
-    
 }
 
 
@@ -82,5 +80,40 @@ h4, #btt:hover{
     background-image:url(./img/monster.jpeg);
     color:cyan;
 }
+
+
+footer {
+    padding-bottom: 60px;
+    height: 90px;
+    margin-top: 5px;
+}
+
+
+#paginate {
+    width: 100%;
+
+    margin: 32px auto; 
+}
+
+
+#paginate .pagin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#paginate .pagin div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 45px;
+}:hover{
+    color: blueviolet;
+}
+
 
 
