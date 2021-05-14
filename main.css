@@ -1,25 +1,62 @@
-*:not(header) { /* global (pega em todo documento) */
+*:not(#descrition){ /* global (pega em todo documento) */
     margin: 0px;
-    background-image:url(./img/monster.jpeg);
-    color: cyan;
-    
+    background-color: #000;
+    color:cyan;
     
 }
 
+
+#login input {
+   margin: 10px;
+  
+}
+
+
+
+body {
+
+    width: 100%;
+    
+    
+  
+
+}
+
+
+    
+
+/* class (def, raid, carro)*/
+#navigation {
+    
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    
+    
+    background-color:black;
+ 
+}
+
+#navigation div{
+    margin: 10px;
+}
 
 
 img {
-    width: 500px;
-    height: 600px;
+    width: 300px;
+    height: 380px;
     
+   
     
 }
 
 
-header{
-    background-color: chartreuse;
+header {
+
     width: 100%;
     color: aqua;
+    text-align: left;
+  
 }
 
 
@@ -30,48 +67,29 @@ h4 { /* element(h1,h2,p,div) */
     
 }
 
-#dev{
-    text-align: center;
-    background-color:rgb(117, 68, 163) ;
-}
 
-#login {
-    
-    
-    height: 60px;
-    background-color: rgb(117, 68, 163);
-    
-} /* id (box, container)*/
-
-
-.post {
-    width: 100%;
-    height: 900px;
-    background-color: black;
-    text-align: center;
-    
-   
-
-} /* class (def, raid, carro)*/
 
 #btt {
-    width: 40px;
-    height: 20px;
+    width: 45px;
+    height: 22px;
     margin-bottom: 50px;
     border-style:double;
     border-radius: 10px;
+ 
     
     
 }
 
 #descrition {
     resize: none;
-    width: 350px;
+    width: 280px;
     height: 100px;
     margin: 10px;
     font-size: 16px;
     border-radius: 12px;
-    
+    background-image:url(./img/monster.jpeg);
+  
+     
 }
 
 
